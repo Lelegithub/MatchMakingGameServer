@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
+<fullyQualifiedTypeName name="simple.PlayerConnectionHandler"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.net.ServerSocket"/>
+</qualifiedTypeNameHistroy>

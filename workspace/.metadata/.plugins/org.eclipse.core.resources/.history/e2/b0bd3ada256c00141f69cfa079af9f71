@@ -1,0 +1,15 @@
+package simple;
+
+import java.io.Serializable;
+
+public class Command implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7386258182412348165L;
+	String stringToguess= "Ciao";
+	
+	
+	
+}

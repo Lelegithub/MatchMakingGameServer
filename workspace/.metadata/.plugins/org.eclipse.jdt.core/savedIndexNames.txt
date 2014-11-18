@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+/home/lele/Documenti/workspace/.metadata/.plugins/org.eclipse.jdt.core
+506951852.index

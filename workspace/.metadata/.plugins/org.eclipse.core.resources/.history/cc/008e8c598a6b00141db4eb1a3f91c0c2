@@ -1,0 +1,47 @@
+package simple;
+
+
+import java.io.IOException;
+import java.util.*;
+import java.util.concurrent.*;
+
+
+
+/**
+ * Permette di parallelizzare il recommender in modo da aumentare le prestazioni in termini di tempi di risposta
+ * @author Daniele Midi, Antonio Tedeschi
+ *
+ */
+public class ParallelServerHangMan  {
+	
+	public static void main(String[] args) throws IOException
+    {
+		List<MovieRating> output = new ArrayList<MovieRating>();
+	
+		int port=Integer.parseInt(args[0]);
+		
+		int taskcount = Runtime.getRuntime().availableProcessors();
+		
+		
+		ExecutorService pool = Executors.newFixedThreadPool(taskcount);
+		serverSocket = new ServerSocket(port);
+		
+		pool.execute(new PlayerHandler(serverSocket.accept()));
+		
+		for(Future<List<MovieRating>> t : tasks) 
+			output.addAll(t.get());
+		
+		pool.shutdown();
+		long end = System.currentTimeMillis();
+
+		System.out.println();
+		System.out.println();
+		System.out.println("Recommendation complete.");
+		float elapsedSeconds = (end-start)/1000F;
+		System.out.println(input.size() + " predictions in "+elapsedSeconds + " seconds ("+(input.size()/elapsedSeconds)+" predictions per second)");
+		
+		return output;
+	}
+	
+	
+}
