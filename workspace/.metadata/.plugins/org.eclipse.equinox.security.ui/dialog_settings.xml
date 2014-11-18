@@ -7,4 +7,11 @@
 		<item value="657" key="DIALOG_X_ORIGIN"/>
 		<item value="340" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="StorageLoginDialogOld">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="347" key="DIALOG_HEIGHT"/>
+		<item value="665" key="DIALOG_X_ORIGIN"/>
+		<item value="316" key="DIALOG_Y_ORIGIN"/>
+	</section>
 </section>

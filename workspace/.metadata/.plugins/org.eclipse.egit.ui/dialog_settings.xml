@@ -20,6 +20,10 @@
 		<item value="602" key="DIALOG_X_ORIGIN"/>
 		<item value="239" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item value="748" key="DIALOG_X_ORIGIN"/>
+		<item value="413" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="org.eclipse.egit.ui.COMMIT_DIALOG_SECTION">
 		<item value="626" key="DIALOG_WIDTH"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
@@ -28,5 +32,12 @@
 		<item value="104" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="GitCommitMessageComponent">
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.MergeTargetSelectionDialog.dialogBounds">
+		<item value="601" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="734" key="DIALOG_HEIGHT"/>
+		<item value="627" key="DIALOG_X_ORIGIN"/>
+		<item value="53" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
